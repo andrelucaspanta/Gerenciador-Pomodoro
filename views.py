@@ -205,7 +205,3 @@ class AppDesktop(tk.Tk):
             "© 2026 Todos os direitos reservados."
         )
         tk.Label(self.conteudo, text=texto_sobre, font=("Arial", 13), bg="white", justify="center").pack(pady=20)
-
-if __name__ == "__main__":
-    app = AppDesktop()
-    app.mainloop()
